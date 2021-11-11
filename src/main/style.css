@@ -1,0 +1,105 @@
+label {
+  margin: 0 5px;
+}
+
+table {
+  width: 100%;
+  min-width: 1166px;
+  border-spacing: 0;
+}
+
+tr {
+  border-bottom: 1px;
+}
+
+th, .title {
+  font-size: 19px;
+  font-weight: bold;
+  align-self: center;
+}
+
+th {
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  padding: 15px 0;
+}
+
+td {
+  text-align: center;
+  padding: 3px 0;  
+}
+
+img {
+  margin: 0 2px;
+  height: 15px;
+}
+
+.filterheader {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  min-width: 780px;
+}
+
+.subfilter {
+  display: flex;
+  align-items: center;
+}
+
+.scrollcontainer {
+  width: 100%;
+  min-width: 800px;
+  overflow-y: hidden;
+}
+
+.subtitle {
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.Unknown {
+  color: Grey
+}
+
+.NoPassengers {
+  font-style: italic;
+}
+
+.subtitle, .Special {
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 1600px) {
+  body {
+    font-size: 12px;
+  }
+
+  th, .title {
+    font-size: 15px;
+  }
+
+  img {
+    margin: 0 1px;
+    height: 10px;
+  }
+
+  .labels {
+    display: flex;
+    flex-direction: column;
+    max-height: 90px;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 1750px) {
+  .labels {
+    display: flex;
+    flex-direction: column;
+    max-height: 90px;
+    flex-wrap: wrap;
+  }
+}
